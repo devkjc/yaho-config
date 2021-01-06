@@ -4,7 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/devkjc/yaho-config/
-          search-paths: yaho
+          search-paths: yaho, yahoo
 server:
   port: 1230
 
