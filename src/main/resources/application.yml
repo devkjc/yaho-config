@@ -3,4 +3,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/devkjc/yaho-config.git
+          uri: https://github.com/devkjc/yaho-config/
+          search-paths: yaho
+server:
+  port: 1230
+
