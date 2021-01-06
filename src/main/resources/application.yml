@@ -5,6 +5,8 @@ spring:
         git:
           uri: https://github.com/devkjc/yaho-config/
           search-paths: yaho, yahoo
+        encrypt:
+          enabled: false
 server:
   port: 1230
 
