@@ -1,9 +1,12 @@
+server:
+  port: 8888
+
 spring:
+  application:
+    name: configserver
+
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/devkjc/yaho-config/
-server:
-  port: 1230
-
+          uri: https://github.com/devkjc/yaho-config
