@@ -5,4 +5,4 @@ spring:
         git:
           uri: https://github.com/devkjc/yaho-config
 server:
-  port: 1230
+  port: 8888
