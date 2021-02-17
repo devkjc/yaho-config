@@ -21,6 +21,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.cloud:spring-cloud-config-server'
     implementation 'org.springframework.cloud:spring-cloud-starter'
+    implementation group: 'org.springframework.security', name: 'spring-security-rsa', version: '1.0.9.RELEASE'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
