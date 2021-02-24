@@ -1,9 +1,12 @@
 spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/devkjc/yaho-config
-          search-paths: yaho, yaho2
-server:
-  port: 8888
+  application:
+    name: yaho-config
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone : http://localhost:8761/eureka/

@@ -8,3 +8,6 @@ spring:
           uri: https://github.com/devkjc/yaho-config
           search-paths: yaho, yaho2
         encrypt.enabled: false
+
+server:
+  port: 8888

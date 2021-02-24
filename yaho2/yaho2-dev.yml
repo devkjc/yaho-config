@@ -3,3 +3,18 @@ who:
     i : JongChan-Dev2 이히히히히힣ㅎ2222223123123222
 
 pw: '{cipher}722acfe886829b501cb53e957e9c9dbdfbeb5f9fda366e31d0a922c344bddffc'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone : http://localhost:8761/eureka/
