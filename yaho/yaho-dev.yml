@@ -2,12 +2,13 @@ who:
   am:
     i : JongChan-Dev
 
+server:
+  port: 1230
 management:
   endpoints:
     web:
       exposure:
         include: refresh
-
 eureka:
   instance:
     prefer-ip-address: true
